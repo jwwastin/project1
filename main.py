@@ -31,3 +31,7 @@ hist_values = np.histogram(
 
 st.bar_chart(hist_values)
 
+st.subheader('Map of all pickups')
+st.map(data)
+
+
